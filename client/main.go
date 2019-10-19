@@ -3,7 +3,7 @@ package main
 import (
 	"bufio"
 	"crypto/sha256"
-	"../proto"
+	"github.com/DimitryEf/docker-chat-grpc/proto"
 
 	"flag"
 	"fmt"

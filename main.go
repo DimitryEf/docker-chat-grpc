@@ -4,11 +4,12 @@
 //protoc -I proto --go_out=plugins=grpc:proto proto/service.proto
 
 //docker build --tag=docker-chat-grpc .
+//docker run -it -p 8080:8080 docker-chat-grpc
 
 package main
 
 import (
-	"./proto"
+	"github.com/DimitryEf/docker-chat-grpc/proto"
 	"log"
 	"net"
 	"os"
